@@ -1,0 +1,17 @@
+print("Kalkulator Luas Lingkaran")
+print("=============================")
+print(" ")
+print("Luas lingkaran = π.r\u00b2")
+print("π = 22/7")
+print("r = jari-jari lingkaran (cm)")
+print(" ")
+print("__Masukkan Nilai r__")
+print(" ")
+r = float(input("Nilai r : "))
+phi = 22/7
+L = phi*r*r
+print(" ")
+print("Hasil: ")
+print("Luas lingkaran dengan jari-jari {} cm adalah {:.2f} cm\u00b2.".format(r, L))
+print(" ")
+print("=============================")
